@@ -20,14 +20,15 @@
     - Create a user with username admin. (This is necessary to visit the /crawler page)
   - check web.xml for the exact path matching for servlets.
     - Ex:
-    - Signin page: localhost:8080/[project_name]/signin
-    - Crawler-Interface page: localhost:8080/[project_name]/crawler
+      - Signin page: localhost:8080/[project_name]/signin
+      - Crawler-Interface page: localhost:8080/[project_name]/crawler
   - By using the web-interface of Crawler, crawler and the server is running in the same process.
   - Crawler state is retrieving from database upon starting and saving back to database upon stopping.
-  - make sure to put rss.xsl in the right place and add correct XSL URL, so the channel can be correctly displayed.(rss/rss.xsl is the default location)
+  - make sure to put rss.xsl in the right place and add correct XSL URL, so the channel can be correctly displayed.
+    - (rss/rss.xsl is the default location)
 
-**Did you personally write _all_ the code you are submitting**
-(other than code from the course web page)?
+**Did you personally write _all_ the code you are submitting?**
+(other than code from the course web page)
 - [x] Yes
 - [ ] No
 
